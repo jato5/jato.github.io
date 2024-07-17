@@ -1,0 +1,72 @@
+body{background-color: black;
+}
+
+.Social-media {
+  background-color: rgb(23, 26, 19);
+  color: white;
+  margin: 16px 60px;
+  text-align: center;
+  padding:  10px 0;
+}
+
+.user-name {
+  color: white;
+  background-color: rgb(35, 105, 67);
+  text-align: center;
+  margin: 16px  60px;
+  padding:  10px 0; 
+}
+
+.Social-media, .user-name, .user-location, .user-info {
+  font: 35px bold;
+  font-family: sans-serif;
+}
+
+.user-location {
+  background-color: rgb(34, 47, 83);
+  color: white;
+  margin: 16px 60px;
+  text-align: center;
+  padding:  10px 0;
+}
+
+.user-info {
+
+    background-color: rgb(3, 7, 14);
+    color: white;
+    margin: 16px 60px;
+    text-align: center;
+    padding:  10px 0;
+  }
+
+  .Social-media:hover{
+    background-color: green;
+    cursor: pointer;
+  }
+
+  .Social-media:active {
+    background-color: orange;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+ span {
+  background-color: rgb(102, 15, 36);
+  font-style: italic;
+ }
+
+ span:hover {
+  background-color: green;
+  cursor: pointer;
+ }
+
+ .content-container {
+  border: 3px green solid;
+ }
+
+ 
+
+ 
